@@ -1,0 +1,30 @@
+html {
+  padding-bottom: 150px;
+}
+
+#config {
+  height: 40vh;
+}
+#preset-config {
+  height: 40vh;
+}
+
+.jsoneditor {
+  max-width: 70vw !important;
+}
+
+button {
+  position: relative;
+  width: auto;
+  background: #338CFE;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  border: none;
+}
+
+button:active {
+  top: 1px;
+}

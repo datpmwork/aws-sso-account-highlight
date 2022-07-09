@@ -1,0 +1,20 @@
+{
+  "name": "AWS SSO Account Highlight",
+  "description": "Display a badge of current AWS Account Name",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "init.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.console.aws.amazon.com/*"],
+      "js": ["aws-sso-account-highlight.js"]
+    }
+  ],
+  "options_page": "options.html",
+  "icons": {
+    "128": "/img/icon.png"
+  }
+}
