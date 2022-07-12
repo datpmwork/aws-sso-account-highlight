@@ -3,7 +3,7 @@
   "description": "Display a badge of current AWS Account Name",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["storage", "activeTab"],
+  "permissions": ["storage"],
   "background": {
     "service_worker": "init.js"
   },
